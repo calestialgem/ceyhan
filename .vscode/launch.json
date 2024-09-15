@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "args": [],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "name": "Debug (Windows)",
+      "preLaunchTask": "Build",
+      "program": "${workspaceFolder}/build/cey",
+      "request": "launch",
+      "stopAtEntry": false,
+      "type": "cppvsdbg"
+    }
+  ],
+  "version": "0.2.0"
+}

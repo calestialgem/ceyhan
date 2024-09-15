@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "command": "build",
+      "group": {
+        "isDefault": true,
+        "kind": "build"
+      },
+      "label": "Build",
+      "presentation": {
+        "clear": true,
+        "echo": true,
+        "focus": true,
+        "panel": "shared",
+        "reveal": "always",
+        "showReuseMessage": false
+      },
+      "targets": ["cey"],
+      "type": "cmake"
+    },
+    {
+      "command": "${workspaceFolder}/release",
+      "label": "Release",
+      "presentation": {
+        "clear": true,
+        "echo": true,
+        "focus": true,
+        "panel": "shared",
+        "reveal": "always",
+        "showReuseMessage": false
+      },
+      "type": "shell"
+    }
+  ],
+  "version": "2.0.0"
+}
