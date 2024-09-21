@@ -1,0 +1,3 @@
+entrypoint {
+  sakarya::exit(0);
+}

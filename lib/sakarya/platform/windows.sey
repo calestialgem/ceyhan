@@ -1,0 +1,5 @@
+@public
+@extern("ExitProcess")
+@platform("windows")
+@callconv("stdcall")
+noreturn exit(int32 code);
