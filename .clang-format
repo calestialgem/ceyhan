@@ -11,7 +11,7 @@ AlignConsecutiveMacros:
   Enabled: false
 AlignConsecutiveShortCaseStatements:
   Enabled: false
-AlignEscapedNewlines: Right
+AlignEscapedNewlines: Left
 AlignOperands: AlignAfterOperator
 AlignTrailingComments:
   Kind: Always
@@ -29,7 +29,7 @@ AttributeMacros: []
 BinPackArguments: false
 BinPackParameters: false
 BitFieldColonSpacing: Both
-BracedInitializerIndentWidth: 2
+BracedInitializerIndentWidth: 8
 BreakAdjacentStringLiterals: false
 BreakAfterAttributes: Always
 # BreakAfterReturnType: Automatic # UNIMPLEMENTED
@@ -39,8 +39,8 @@ BreakBeforeInlineASMColon: OnlyMultiline
 BreakBeforeTernaryOperators: true
 # BreakFunctionDefinitionParameters: true # UNIMPLEMENTED
 BreakStringLiterals: false
-ColumnLimit: 80
-ContinuationIndentWidth: 2
+ColumnLimit: 1024
+ContinuationIndentWidth: 8
 DerivePointerAlignment: false
 DisableFormat: false
 ForEachMacros: []
@@ -50,7 +50,7 @@ IndentCaseBlocks: false
 IndentCaseLabels: false
 IndentGotoLabels: true
 IndentPPDirectives: AfterHash
-IndentWidth: 2
+IndentWidth: 4
 IndentWrappedFunctionNames: false
 InsertBraces: true
 InsertNewlineAtEOF: true

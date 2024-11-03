@@ -58,8 +58,8 @@ else()
 endif()
 
 target_sources(cey PRIVATE
-  src/cey_debug.c
-  src/cey_main.c
+  sources/core.c
+  sources/main.c
 )
 
 set_target_properties(cey PROPERTIES
