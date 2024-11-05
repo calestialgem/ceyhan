@@ -1,5 +1,4 @@
-@public
-@extern("ExitProcess")
+@packagescope
 @platform("windows")
-@callconv("stdcall")
-noreturn exit(int32 code);
+@extern("sakarya_windows_ExitProcess")
+noreturn windowsExitProcess(uint32 code);

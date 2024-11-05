@@ -1,0 +1,5 @@
+@globalscope
+@platform("windows")
+noreturn exit(int64 code) {
+    windowsExitProcess(uint32{code});
+}
