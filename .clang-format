@@ -29,7 +29,7 @@ AttributeMacros: []
 BinPackArguments: false
 BinPackParameters: false
 BitFieldColonSpacing: Both
-BracedInitializerIndentWidth: 8
+BracedInitializerIndentWidth: 4
 BreakAdjacentStringLiterals: false
 BreakAfterAttributes: Always
 # BreakAfterReturnType: Automatic # UNIMPLEMENTED
@@ -49,7 +49,7 @@ IncludeBlocks: Regroup
 IndentCaseBlocks: false
 IndentCaseLabels: false
 IndentGotoLabels: true
-IndentPPDirectives: BeforeHash
+IndentPPDirectives: AfterHash
 IndentWidth: 4
 IndentWrappedFunctionNames: false
 InsertBraces: true
