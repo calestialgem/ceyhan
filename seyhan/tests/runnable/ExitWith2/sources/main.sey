@@ -1,0 +1,3 @@
+entrypoint {
+    Sakarya.exit(2);
+}
