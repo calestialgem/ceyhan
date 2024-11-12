@@ -1,0 +1,9 @@
+{
+  "Name": "ExitWith2",
+  "Dependencies": ["Sakarya"],
+  "CompilerTest": {
+    "Runnable": {
+      "ExitCode": 2
+    }
+  }
+}
