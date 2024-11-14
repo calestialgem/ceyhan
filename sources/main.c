@@ -59,8 +59,10 @@ int main(int argumentCount, char const *const *arguments) {
 
     {
         int signBit;
+        int byte;
         signBit = (int)((uint64_t)exitCode >> (sizeof(exitCode) * CHAR_BIT - 1));
-        memset(&compilerExitCode, signBit, sizeof(compilerExitCode));
+        byte = -signBit;
+        memset(&compilerExitCode, byte, sizeof(compilerExitCode));
         memcpy(&compilerExitCode, &exitCode, ceyMinSize(sizeof(compilerExitCode), sizeof(exitCode)));
     }
 
